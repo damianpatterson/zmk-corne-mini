@@ -67,7 +67,7 @@
 
         delete {
             bindings = <&kp DELETE>;
-            key-positions = <21 8 9 10>;
+            key-positions = <8 9 10>;
         };
 
         perc {
