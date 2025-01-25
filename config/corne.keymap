@@ -152,7 +152,7 @@
 
             bindings = <
 &trans  &kp Q           &kp W           &kp F             &kp P        &kp G        &kp J    &kp L        &kp U             &kp Y            &kp SEMI         &trans
-&trans  &hm LEFT_ALT A  &hm LEFT_GUI R  &hm LEFT_SHIFT S  &hm LCTRL T  &kp D        &kp H    &hm RCTRL N  &hm LEFT_SHIFT E  &hm RIGHT_GUI L  &hm RIGHT_ALT O  &trans
+&trans  &hm LEFT_ALT A  &hm LEFT_GUI R  &hm LEFT_SHIFT S  &hm LCTRL T  &kp D        &kp H    &hm RCTRL N  &hm LEFT_SHIFT E  &hm RIGHT_GUI I  &hm RIGHT_ALT O  &trans
 &trans  &kp Z           &kp X           &kp C             &kp V        &kp B        &kp K    &kp M        &kp COMMA         &kp DOT          &kp FSLH         &trans
                                         &kp LGUI          &mo 1        &kp SPACE    &kp RET  &lt 2 TAB    &kp BACKSPACE
             >;
@@ -168,10 +168,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp N1                &kp N2     &kp N3     &kp N4     &kp N5          &kp LESS_THAN   &kp LEFT_BRACKET   &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp SEMICOLON  &trans
-&trans  &kp NUMBER_6          &kp N7     &kp N8     &kp N9     &kp N0          &kp LEFT_ARROW  &kp DOWN_ARROW     &kp UP_ARROW     &kp RIGHT_ARROW        &kp SQT        &trans
-&trans  &kp NON_US_BACKSLASH  &kp MINUS  &kp EQUAL  &kp SLASH  &kp ASTERISK    &trans          &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp GRAVE      &trans
-                                         &kp LGUI   &trans     &kp SPACE       &kp RET         &trans             &trans
+&trans  &kp N1                &kp N2     &kp N3     &kp N4     &kp N5          &kp LESS_THAN     &kp LEFT_BRACKET   &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp SEMICOLON  &trans
+&trans  &kp NUMBER_6          &kp N7     &kp N8     &kp N9     &kp N0          &kp LEFT_ARROW    &kp DOWN_ARROW     &kp UP_ARROW     &kp RIGHT_ARROW        &kp SQT        &trans
+&trans  &kp NON_US_BACKSLASH  &kp MINUS  &kp EQUAL  &kp SLASH  &kp ASTERISK    &kp GREATER_THAN  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp GRAVE      &trans
+                                         &kp LGUI   &trans     &kp SPACE       &kp RET           &trans             &trans
             >;
         };
 
