@@ -151,10 +151,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp Q           &kp W           &kp E             &kp R        &kp T        &kp Y    &kp U        &kp I             &kp O            &kp P                    &trans
-&trans  &hm LEFT_ALT A  &hm LEFT_GUI S  &hm LEFT_SHIFT D  &hm LCTRL F  &kp G        &kp H    &hm RCTRL J  &hm LEFT_SHIFT K  &hm RIGHT_GUI L  &hm RIGHT_ALT SEMICOLON  &trans
-&trans  &kp Z           &kp X           &kp C             &kp V        &kp B        &kp N    &kp M        &kp COMMA         &kp DOT          &kp FSLH                 &trans
-                                        &kp LGUI          &mo 1        &kp SPACE    &kp RET  &lt 2 TAB    &kp BACKSPACE
+&trans  &kp Q           &kp W           &kp E             &kp R         &kp T        &kp Y    &kp U        &kp I             &kp O            &kp P                    &trans
+&trans  &hm LEFT_ALT A  &hm LEFT_GUI S  &hm LEFT_SHIFT D  &hm LCTRL F   &kp G        &kp H    &hm RCTRL J  &hm LEFT_SHIFT K  &hm RIGHT_GUI L  &hm RIGHT_ALT SEMICOLON  &trans
+&trans  &kp Z           &kp X           &kp C             &kp V         &kp B        &kp N    &kp M        &kp COMMA         &kp DOT          &kp FSLH                 &trans
+                                        &kp LG(SPACE)     &lt 1 ESCAPE  &kp SPACE    &kp RET  &lt 2 TAB    &kp BACKSPACE
             >;
         };
 
@@ -185,20 +185,20 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL  &kp AT          &kp HASH           &kp DLLR         &kp PRCNT    &kp CARET  &kp AMPS         &kp ASTRK      &kp LEFT_PARENTHESIS  &kp RPAR       &trans
-&trans  &trans    &trans          &hm LALT UP_ARROW  &hm LCTRL SQT    &kp GRAVE    &kp MINUS  &hm RCTRL EQUAL  &hm RALT LBKT  &hm RSHFT RBKT        &hm RGUI BSLH  &trans
-&trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW  &kp TILDE    &kp UNDER  &kp PLUS         &kp LBRC       &kp RBRC              &kp PIPE       &trans
-                                  &kp LGUI           &trans           &kp SPACE    &kp RET    &trans           &trans
+&trans  &kp EXCL      &kp AT          &kp HASH           &kp DLLR         &kp PRCNT    &kp CARET  &kp AMPS         &kp ASTRK             &kp LEFT_PARENTHESIS    &kp RPAR            &trans
+&trans  &kp LEFT_ALT  &kp LEFT_GUI    &hm LALT UP_ARROW  &hm LCTRL SQT    &kp GRAVE    &kp MINUS  &hm RCTRL EQUAL  &hm RIGHT_SHIFT LBKT  &hm LS(RIGHT_GUI) RBKT  &hm RIGHT_ALT BSLH  &trans
+&trans  &trans        &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW  &kp TILDE    &kp UNDER  &kp PLUS         &kp LBRC              &kp RBRC                &kp PIPE            &trans
+                                      &kp LGUI           &trans           &kp SPACE    &kp RET    &trans           &kp BACKSPACE
             >;
         };
 
         ADJ {
             display-name = "System";
             bindings = <
-&trans  &kp F1        &kp F2         &kp F3        &kp F4      &kp F5            &kp F6  &kp F7  &kp F8  &kp F9  &kp F10      &trans
-&trans  &hm LGUI F11  &hm LSHFT F12  &trans        &trans      &studio_unlock    &trans  &trans  &trans  &trans  &trans       &trans
-&trans  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_CLR  &bt BT_CLR_ALL    &trans  &trans  &trans  &trans  &bootloader  &trans
-                                     &trans        &trans      &trans            &trans  &trans  &trans
+&trans  &kp F1        &kp F2         &kp F3        &kp F4      &kp F5            &kp F6  &kp F7                   &kp F8         &kp F9  &kp F10      &trans
+&trans  &hm LGUI F11  &hm LSHFT F12  &trans        &trans      &studio_unlock    &trans  &kp LC(LEFT)             &kp LC(RIGHT)  &trans  &trans       &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_CLR  &bt BT_CLR_ALL    &trans  &kp LS(LC(KP_NUMBER_4))  &trans         &trans  &bootloader  &trans
+                                     &trans        &trans      &trans            &trans  &trans                   &trans
             >;
         };
     };
