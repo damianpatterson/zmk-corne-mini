@@ -166,10 +166,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp N1                &kp N2     &kp N3     &kp N4     &kp N5          &kp LESS_THAN     &kp LEFT_BRACKET   &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp SEMICOLON  &trans
-&trans  &kp NUMBER_6          &kp N7     &kp N8     &kp N9     &kp N0          &kp LEFT_ARROW    &kp DOWN_ARROW     &kp UP_ARROW     &kp RIGHT_ARROW        &kp SQT        &trans
-&trans  &kp NON_US_BACKSLASH  &kp MINUS  &kp EQUAL  &kp SLASH  &kp ASTERISK    &kp GREATER_THAN  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp GRAVE      &trans
-                                         &kp LGUI   &trans     &kp SPACE       &kp RET           &trans             &trans
+&trans  &kp N1                &kp N2           &kp N3           &kp N4             &kp N5          &kp LESS_THAN     &kp LEFT_BRACKET            &kp LEFT_BRACE          &kp LEFT_PARENTHESIS       &kp SEMICOLON          &trans
+&trans  &hm LEFT_CONTROL N6   &hm LEFT_ALT N7  &hm LEFT_GUI N8  &hm LEFT_SHIFT N9  &kp N0          &kp LEFT_ARROW    &hm RIGHT_SHIFT DOWN_ARROW  &hm RIGHT_GUI UP_ARROW  &hm RIGHT_ALT RIGHT_ARROW  &hm RIGHT_CONTROL SQT  &trans
+&trans  &kp NON_US_BACKSLASH  &kp MINUS        &kp EQUAL        &kp SLASH          &kp ASTERISK    &kp GREATER_THAN  &kp RIGHT_BRACKET           &kp RIGHT_BRACE         &kp RIGHT_PARENTHESIS      &kp GRAVE              &trans
+                                               &kp LGUI         &trans             &kp SPACE       &kp RET           &trans                      &trans
             >;
         };
 
