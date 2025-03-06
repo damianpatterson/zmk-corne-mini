@@ -1,13 +1,58 @@
-### My store https://www.keyboard-hoarders.com https://www.keyboardhoarders.etsy.com
-![ukogvc9z copy](https://github.com/user-attachments/assets/59156141-b7cd-4627-be30-9b69cd84722c)
-
-
 ### Keymap Layout
 
+```
+---Base---
+┌─────┬─────┬─────┬─────┬─────┐                    ┌─────┬─────┬─────┬─────┬─────┐
+│  Q  │  W  │  E  │  R  │  T  │                    │  Y  │  U  │  I  │  O  │  P  │
+│     │     │     │     │( ( )│                    │( ) )│     │     │     │     │
+├─────┼─────┼─────┼─────┼─────┤                    ├─────┼─────┼─────┼─────┼─────┤
+│  A  │  S  │  D  │  F  │  G  │                    │  H  │  J  │  K  │  L  │  ;  │
+│(Ctl)│(Alt)│(GUI)│(Sft)│( [ )│                    │( ] )│(Sft)│(GUI)│(Alt)│(Ctl)│
+├─────┼─────┼─────┼─────┼─────┤                    ├─────┼─────┼─────┼─────┼─────┤
+│  Z  │  X  │  C  │  V  │  B  │                    │  N  │  M  │  ,  │  .  │  /  │
+│     │     │     │     │( \ )│                    │( - )│     │     │     │     │
+└─────┴─────┴─────┼─────┼─────┤─────┐        ┌─────┼─────┴─────┼─────┴─────┴─────┘
+                  │ GUI │ Nav │Space│        │ Ent │ Sym │ Del |
+                  │     │(ESC)│     │        │     │(Tab)│     │
+                  └─────┴─────┴─────┘        └─────┴─────┴─────┘
 
-![corne-mini_keymap](https://github.com/user-attachments/assets/a631bcff-280e-4bcc-9952-5bd3f432b854)
+---Navigation---
+┌─────┬─────┬─────┬─────┬─────┐                    ┌─────┬─────┬─────┬─────┬─────┐
+│  1  │  2  │  3  │  4  │  5  │                    │  <  │  [  │  {  │  (  │  ;  │
+├─────┼─────┼─────┼─────┼─────┤                    ├─────┼─────┼─────┼─────┼─────┤
+│  6  │  7  │  8  │  9  │  0  │                    │Left │Down │ Up  │Right│  '  │
+│(Ctl)│(Alt)│(GUI)│(Sft)│     │                    │     │(Sft)│(GUI)│(Alt)│(Ctl)│
+├─────┼─────┼─────┼─────┼─────┤                    ├─────┼─────┼─────┼─────┼─────┤
+│  Z  │  X  │  C  │  V  │  B  │                    │  N  │  M  │  ,  │  .  │  /  │
+└─────┴─────┴─────┼─────┼─────┤─────┐        ┌─────┼─────┴─────┼─────┴─────┴─────┘
+                  │ GUI │     │Space│        │ Ent │     │ Del |
+                  │     │     │     │        │     │     │     │
+                  └─────┴─────┴─────┘        └─────┴─────┴─────┘
 
+---Symbol---
+┌─────┬─────┬─────┬─────┬─────┐                    ┌─────┬─────┬─────┬─────┬─────┐
+│  !  │  @  │  #  │  $  │  %  │                    │  ^  │  &  │  *  │  (  │  )  │
+├─────┼─────┼─────┼─────┼─────┤                    ├─────┼─────┼─────┼─────┼─────┤
+│ Ctl │ Alt │  Up │  F  │  G  │                    │  -  │  =  │  [  │  ]  │  \  │
+│     │     │(GUI)│(Sft)│     │                    │     │(Sft)│(GUI)│(Alt)│(Ctl)│
+├─────┼─────┼─────┼─────┼─────┤                    ├─────┼─────┼─────┼─────┼─────┤
+│  Z  │Left │Down │Right│  B  │                    │  _  │  +  │  {  │  }  │  |  │
+└─────┴─────┴─────┼─────┼─────┤─────┐        ┌─────┼─────┴─────┼─────┴─────┴─────┘
+                  │ GUI │     │Space│        │ Ent │     │ Del |
+                  └─────┴─────┴─────┘        └─────┴─────┴─────┘
 
-### How can you access different Bluetooth profiles? For example, you can pair your phone with your keyboard and then seamlessly switch between using it with your phone and your computer.
+---System---
+┌─────┬─────┬─────┬─────┬─────┐                    ┌─────┬─────┬─────┬─────┬─────┐
+│ F1  │ F2  │ F3  │ F4  │ F5  │                    │ F6  │ F7  │ F8  │ F9  │ F10 │
+├─────┼─────┼─────┼─────┼─────┤                    ├─────┼─────┼─────┼─────┼─────┤
+│ F11 │ F12 │     │     │     │                    │     │  ^< │ ^>  │     │     │
+├─────┼─────┼─────┼─────┼─────┤                    ├─────┼─────┼─────┼─────┼─────┤
+│ BT0 │ BT1 │ BT3 │BTCLR│BTCLA│                    │     │prscr│     │     │     │
+└─────┴─────┴─────┼─────┼─────┤─────┐        ┌─────┼─────┴─────┼─────┴─────┴─────┘
+                  │ GUI │     │Space│        │ Ent │     │ Del |
+                  └─────┴─────┴─────┘        └─────┴─────┴─────┘
+```
+
+### How can you access different Bluetooth profiles? For example, you can pair your phone with your keyboard and then seamlessly switch between using it with your phone and your computer
 
 ![bluetoothpair-guide](https://github.com/user-attachments/assets/e0e91ebb-ae41-43c8-b502-49e237e52501)
